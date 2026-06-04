@@ -1,0 +1,27 @@
+[submodule "AmazingHand"]
+	path = AmazingHand
+	url = https://github.com/pollen-robotics/AmazingHand.git
+[submodule "LEAP_Hand_Sim"]
+	path = LEAP_Hand_Sim
+	url = https://github.com/leap-hand/LEAP_Hand_Sim.git
+[submodule "openarm_description"]
+	path = openarm_description
+	url = https://github.com/enactic/openarm_description.git
+[submodule "openarm_isaac_lab"]
+	path = openarm_isaac_lab
+	url = https://github.com/enactic/openarm_isaac_lab.git
+[submodule "openarm_ros2"]
+	path = openarm_ros2
+	url = https://github.com/enactic/openarm_ros2.git
+[submodule "orca_core"]
+	path = orca_core
+	url = https://github.com/orcahand/orca_core.git
+[submodule "orcahand_description"]
+	path = orcahand_description
+	url = https://github.com/orcahand/orcahand_description.git
+[submodule "SO-100-arm"]
+	path = SO-100-arm
+	url = https://github.com/brukg/SO-100-arm.git
+[submodule "SO-ARM100"]
+	path = SO-ARM100
+	url = https://github.com/TheRobotStudio/SO-ARM100.git
