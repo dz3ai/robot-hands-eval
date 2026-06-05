@@ -16,6 +16,20 @@ Unmanaged monorepo of independent open-source robotic hand and arm projects. Eac
 | `SO-100-arm/` | ROS2 support for SO-100 5-DOF arm (URDF, Gazebo, MoveIt2) | ROS2, Gazebo |
 | `SO-ARM100/` | 3D printing files, STEP/STL, and URDF for SO-100/101 arms | CAD, 3D printing |
 
+## Showcase — ORCA Hand Simulation
+
+ORCA Hand right hand animation in MuJoCo (90 frames, 30fps):
+
+![ORCA Hand home pose](docs/orca-home-pose.png)
+
+Animation sequence: home → open → fist → point → pinch → spread → home
+
+```bash
+cd orca-diy1
+uv run python orca_animate.py --frames 15 --out frames
+# → frames/animation.mp4
+```
+
 ## The web app (planned)
 - Project showcase
 - Feature comparison

@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Reasonix internal
+.reasonix/
+
+# Generated frames
+orca-diy1/frames/
